@@ -4,21 +4,26 @@ public class NestedIf {
 
 	public static void main(String[] args) {
 		
-		int a= 110;
-		int b=120;
-		int c=90;
+		int a= 500;
+		int b=550;
+		int c=340;
 		
-		if(c>a)
+		if(a>=b)
 		{
-			if(c>b)
+			if(a>=c)
 			{
-				System.out.println(c+" is greatest");
+				System.out.println(a+" is greatest");
 			}
 			else
-				System.out.println(b+" is greatest");
+				System.out.println(c+" is greatest");
 		}
 		else 
-			System.out.println(a+" is greatest");
+		{
+			if(b>=c)
+			System.out.println(b+" is greatest");
+		else 
+			System.out.println(c+" is greatest");
+		}
 	}
 
 }
