@@ -24,15 +24,15 @@ public class TwoDimensionalArray {
 		
 		for (int r=0; r<data.length; r++) //another function to use the size or row and column is length function
 			                             // row length = arrayname.length
-	
+		{
 			for ( int c=0; c<data[r].length; c++) //column size - arrayname[r].length
 			{
 				System.out.print(data[r][c]+" ");
 			
 			}
 		
-			
+			System.out.println();
 		}
 	}
 
-
+}

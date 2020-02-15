@@ -14,8 +14,8 @@ public class Function1 {
 		//String x= getName("Hazel", 25);
 		
 		//System.out.println(x);
-		int total = getMarks(70,80,89,88,68);
-		System.out.println(total/100*100);
+		int total = getMarks(90,80,89,88,78);
+		System.out.println(total*100/500);
 	}
 
 
@@ -46,4 +46,5 @@ public class Function1 {
 		 return m+p+c+com+e;
 		 
 	}
+	
 }
