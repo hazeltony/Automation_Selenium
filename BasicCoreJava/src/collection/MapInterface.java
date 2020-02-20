@@ -18,8 +18,6 @@ public class MapInterface {
 		Map<String, String> map2 = new HashMap<>();
 		map2.put("Hazel", "Tony");
 		
-		
-		
 
 	}
 

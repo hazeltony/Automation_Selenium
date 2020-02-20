@@ -11,4 +11,9 @@ public class Mobile extends Telephone {
 		
 		System.out.println("Calling from mobile");
 	}
+	
+	public Mobile()
+	{
+		System.out.println("Mobile");
+	}
 }

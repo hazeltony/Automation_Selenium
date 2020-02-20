@@ -6,4 +6,10 @@ public class Telephone {
 		
 		System.out.println("Calling from telephone");
 	}
+	
+	public Telephone()
+	
+	{
+		System.out.println("Telephone");
+	}
 	}
