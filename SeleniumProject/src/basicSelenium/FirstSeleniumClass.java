@@ -7,13 +7,9 @@ public class FirstSeleniumClass {
 public static void main(String[] args) {
 	
 	System.setProperty("webdriver.chrome.driver","C:\\Drivers\\chromedriver.exe");
-	ChromeDriver dr = new ChromeDriver(); //Constructor gets called when a object is created
+	ChromeDriver dr = new ChromeDriver(); //Constructor gets called when a object is created(open browser is already present in constructor's function
 	dr.manage().window().maximize(); // to maximize the window
 	dr.get("https://www.google.com/"); // to open the URL
-	
-	
-	
-	
 	
 	
 }
