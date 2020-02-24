@@ -3,6 +3,7 @@ package basicSelenium;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class BasicWebelements {
 
@@ -32,7 +33,6 @@ public class BasicWebelements {
 		automobile.click();
 		 
 		dr.findElement(By.xpath("//input[@id='engineperformance']")).sendKeys("1200");
-		
 
 	}
 	/*
