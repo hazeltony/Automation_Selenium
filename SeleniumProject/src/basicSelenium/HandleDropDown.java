@@ -46,8 +46,64 @@ public class HandleDropDown {
 		
 		//click next
 		dr.findElement(By.id("nextenterinsurantdata")).click();
+		
+		//enter firstname
+		dr.findElement(By.id("firstname")).sendKeys("Hazel");
+		
+		//enter lastname 
+		dr.findElement(By.id("lastname")).sendKeys("Tony");
+		
+		//Dateof birth
+		dr.findElement(By.id("birthdate")).sendKeys("11/21/1993");
+		
+		//Check before click
+		System.out.println(dr.findElement(By.xpath("//label[text()='Female']/input")).isSelected());
+		//enter gender
+		//dr.findElement(By.xpath("(//span[@class='ideal-radio'])[1]")).click(); //xpath using occurence
+		dr.findElement(By.xpath("//label[text()='Female']/span")).click(); //xpath using multiple labels
+		
+		System.out.println(dr.findElement(By.xpath("//label[text()='Female']/input")).isSelected()); //to check if it is selected
+		
+		//enter street address
+		dr.findElement(By.id("streetaddress")).sendKeys("Palm Atlaantis, B-901");
+		
+		//Select Country 
+		Select place = new Select(dr.findElement(By.id("country")));
+		place.selectByValue("India");
+		
+		//Enter zipcode
+		dr.findElement(By.id("zipcode")).sendKeys("412207");
+		
+		//Enter City
+		dr.findElement(By.id("city")).sendKeys("Pune");
+		
+		//Select Occupation
+		Select job = new Select(dr.findElement(By.id("occupation")));
+		job.selectByValue("Employee");
+		
+		//Select Hobbies
+		dr.findElement(By.xpath("//label[contains(.,'diving')]/span")).click(); //xpath hsing contains
+		
+		//Enter Website
+		dr.findElement(By.id("website")).sendKeys("www.google.com");
+		
+		
+		//Select Picture
 	  
-	  
+		
+		//click next 
+		//dr.findElement(By.id("nextenterproductdata")).click();
+		
+		//Start date
+		//dr.findElement(By.id("startdate")).sendKeys("02/25/2020");
+		
+		//Select insurance sum
+		//Select insur = new Select(dr.findElement(By.id("insurancesum")));
+		//insur.selectByValue("10000000");
+		
+		//Select Merit rating
+		
+		
 
 	}
 
