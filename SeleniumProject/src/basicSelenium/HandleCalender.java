@@ -44,6 +44,36 @@ public class HandleCalender {
 		System.out.println(month);
 		System.out.println(year);
 		
+		while(!dr.findElement(By.xpath("//span[@class='ui-datepicker-month']")).getText().equals(targetmonth))
+		dr.findElement(By.xpath("//a[@title='Prev']")).click();
+		
+		
+		int rows = dr.findElements(By.xpath("//table[@class='ui-datepicker-calendar']/tbody/tr")).size();
+		
+		System.out.println("number of rows=" +rows);
+		
+		/*int cols = dr.findElements(By.xpath("//table[@class='ui-datepicker-calendar']/tbody/tr[1]/td/a")).size();
+		
+		System.out.println("number of columns=" +cols);*/
+		
+		for(int r=1; r<=rows;r++)
+			
+		{
+			int cols = dr.findElements(By.xpath("//table[@class='ui-datepicker-calendar']/tbody/tr["+r+"]/td")).size();
+			//System.out.println("number of columns=" +cols);
+			
+			for(int c=1; c<=cols; c++)
+			{
+				WebElement dateText =dr.findElement(By.xpath("//table[@class='ui-datepicker-calendar']/tbody/tr["+r+"]/td["+c+"]"));
+				
+				if(dateText.getText().contentEquals(targetDate))
+				{
+					dateText.click();
+				}
+			}
+			
+		
+		}
 
 	}
 
