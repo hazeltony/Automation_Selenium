@@ -2,7 +2,7 @@ package stringClass;
 
 public class StringClassPrac {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { //count no  of  n -letter in the word
 		 
 		String str= "Anand";
 	

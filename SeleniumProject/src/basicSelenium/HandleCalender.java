@@ -44,6 +44,8 @@ public class HandleCalender {
 		System.out.println(month);
 		System.out.println(year);
 		
+		
+				
 		while(!dr.findElement(By.xpath("//span[@class='ui-datepicker-month']")).getText().equals(targetmonth))
 		dr.findElement(By.xpath("//a[@title='Prev']")).click();
 		
