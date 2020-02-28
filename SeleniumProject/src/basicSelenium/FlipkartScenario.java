@@ -24,17 +24,17 @@ public class FlipkartScenario {
 		WebElement ele = dr.findElement(By.xpath("//span[text()='Men']"));
 		act.moveToElement(ele).build().perform(); // to hover the mouse on the element
 		
-		ele = dr.findElement(By.xpath("//a[text()='Shirts']"));
+		ele = dr.findElement(By.xpath("//a[text()='Shirts']")); //click shirts
 		ele.click();
 		
 		Thread.sleep(2000);
 		
-		ele=dr.findElement(By.xpath("//div[@class='_3G9WVX oVjMho']/div[@class='_3aQU3C']"));
+		ele=dr.findElement(By.xpath("//div[@class='_3G9WVX oVjMho']/div[@class='_3aQU3C']")); //drag and drop action with mouse
 		act.dragAndDropBy(ele, 100, 0).build().perform();
 		
 		Thread.sleep(2000);
 		
-		dr.findElement(By.xpath("//img[@class='_3togXc']")).click();
+		dr.findElement(By.xpath("//img[@class='_3togXc']")).click(); //first shirt element
 		
 		String parent = dr.getWindowHandle(); // provides this particular window
 		
