@@ -26,7 +26,7 @@ public class Scroll {
 		
 		ele.click();
 		
-		Alert alt =dr.switchTo().alert();
+		Alert alt =dr.switchTo().alert(); //to deal with alerts
 		
 		System.out.println(alt.getText());
 		
