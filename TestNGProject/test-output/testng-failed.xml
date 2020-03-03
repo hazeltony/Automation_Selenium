@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test depends on methods feature(failed)">
+    <classes>
+      <class name="basicTestAnnotations.DependsOnMethod">
+        <methods>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="verifyHomepage"/>
+          <include name="automobileTestInitialization"/>
+          <include name="suiteInitialization"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="suiteTearDown"/>
+          <include name="beforeMethod"/>
+          <include name="automobileTeardown"/>
+        </methods>
+      </class> <!-- basicTestAnnotations.DependsOnMethod -->
+    </classes>
+  </test> <!-- Test depends on methods feature(failed) -->
+  <test thread-count="5" name="Test priority feature(failed)">
+    <classes>
+      <class name="basicTestAnnotations.DependsOnMethod">
+        <methods>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="verifyHomepage"/>
+          <include name="automobileTestInitialization"/>
+          <include name="suiteInitialization"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="suiteTearDown"/>
+          <include name="beforeMethod"/>
+          <include name="automobileTeardown"/>
+        </methods>
+      </class> <!-- basicTestAnnotations.DependsOnMethod -->
+    </classes>
+  </test> <!-- Test priority feature(failed) -->
+</suite> <!-- Failed suite [Suite] -->
