@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basicTestAnnotations.DependsOnMethod">
+      <class name="basicTestAnnotations.LearnDataProvider">
         <methods>
-          <include name="login"/>
-          <include name="logout"/>
-          <include name="verifyHomepage"/>
+          <include name="initialize"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- basicTestAnnotations.DependsOnMethod -->
+      </class> <!-- basicTestAnnotations.LearnDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

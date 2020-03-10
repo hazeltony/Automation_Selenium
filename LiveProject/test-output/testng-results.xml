@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="229" started-at="2020-03-04T23:10:06 IST" finished-at="2020-03-04T23:10:06 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="229" started-at="2020-03-04T23:10:06 IST" finished-at="2020-03-04T23:10:06 IST">
+      <class name="truck.SendQuote">
+        <test-method status="PASS" signature="email()[pri:0, instance:truck.SendQuote@5ec0a365]" name="email" duration-ms="46" started-at="2020-03-04T23:10:06 IST" finished-at="2020-03-04T23:10:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email -->
+        <test-method status="PASS" signature="phoneNumber()[pri:0, instance:truck.SendQuote@5ec0a365]" name="phoneNumber" duration-ms="16" started-at="2020-03-04T23:10:06 IST" finished-at="2020-03-04T23:10:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneNumber -->
+        <test-method status="PASS" signature="userName()[pri:0, instance:truck.SendQuote@5ec0a365]" name="userName" duration-ms="16" started-at="2020-03-04T23:10:06 IST" finished-at="2020-03-04T23:10:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userName -->
+      </class> <!-- truck.SendQuote -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

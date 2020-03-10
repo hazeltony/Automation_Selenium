@@ -1,25 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="8" total="17" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="155" started-at="2020-03-04T04:26:03Z" finished-at="2020-03-04T04:26:03Z">
+  <suite name="Suite" duration-ms="35784" started-at="2020-03-05T04:01:20Z" finished-at="2020-03-05T04:01:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="155" started-at="2020-03-04T04:26:03Z" finished-at="2020-03-04T04:26:03Z">
-      <class name="samplePackage.TestScript1">
-        <test-method status="PASS" signature="test1()[pri:0, instance:samplePackage.TestScript1@548b7f67]" name="test1" duration-ms="31" started-at="2020-03-04T09:56:03Z" finished-at="2020-03-04T09:56:03Z">
+    <test name="Test" duration-ms="35784" started-at="2020-03-05T04:01:20Z" finished-at="2020-03-05T04:01:56Z">
+      <class name="automobile.EnterInsurantData">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:automobile.EnterInsurantData@55ca8de8]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-03-05T09:31:30Z" finished-at="2020-03-05T09:31:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:samplePackage.TestScript1@548b7f67]" name="test2" duration-ms="16" started-at="2020-03-04T09:56:03Z" finished-at="2020-03-04T09:56:03Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="dob()[pri:0, instance:automobile.EnterInsurantData@55ca8de8]" name="dob" duration-ms="4" started-at="2020-03-05T09:31:30Z" finished-at="2020-03-05T09:31:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:samplePackage.TestScript1@548b7f67]" name="test3" duration-ms="0" started-at="2020-03-04T09:56:03Z" finished-at="2020-03-04T09:56:03Z">
+        </test-method> <!-- dob -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automobile.EnterInsurantData@55ca8de8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-03-05T09:31:30Z" finished-at="2020-03-05T09:31:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-      </class> <!-- samplePackage.TestScript1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automobile.EnterInsurantData@55ca8de8]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-03-05T09:31:30Z" finished-at="2020-03-05T09:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automobile.EnterInsurantData@55ca8de8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-05T09:31:30Z" finished-at="2020-03-05T09:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="firstname()[pri:0, instance:automobile.EnterInsurantData@55ca8de8]" name="firstname" duration-ms="25762" started-at="2020-03-05T09:31:30Z" finished-at="2020-03-05T09:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstname -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automobile.EnterInsurantData@55ca8de8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-05T09:31:56Z" finished-at="2020-03-05T09:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="lastname()[pri:0, instance:automobile.EnterInsurantData@55ca8de8]" name="lastname" duration-ms="4" started-at="2020-03-05T09:31:56Z" finished-at="2020-03-05T09:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastname -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automobile.EnterInsurantData@55ca8de8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-03-05T09:31:56Z" finished-at="2020-03-05T09:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:automobile.EnterInsurantData@55ca8de8]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-03-05T09:31:56Z" finished-at="2020-03-05T09:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automobile.EnterInsurantData@55ca8de8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-05T09:31:56Z" finished-at="2020-03-05T09:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- automobile.EnterInsurantData -->
+      <class name="automobile.EnterProductData">
+        <test-method status="PASS" signature="damageInsurance()[pri:0, instance:automobile.EnterProductData@2c34f934]" name="damageInsurance" duration-ms="4" started-at="2020-03-05T09:31:56Z" finished-at="2020-03-05T09:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- damageInsurance -->
+        <test-method status="PASS" signature="insuranceSum()[pri:0, instance:automobile.EnterProductData@2c34f934]" name="insuranceSum" duration-ms="4" started-at="2020-03-05T09:31:56Z" finished-at="2020-03-05T09:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuranceSum -->
+        <test-method status="PASS" signature="startDate()[pri:0, instance:automobile.EnterProductData@2c34f934]" name="startDate" duration-ms="8" started-at="2020-03-05T09:31:56Z" finished-at="2020-03-05T09:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDate -->
+      </class> <!-- automobile.EnterProductData -->
+      <class name="automobile.EnterVehicleData">
+        <test-method status="PASS" signature="suiteInitialization()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="suiteInitialization" is-config="true" duration-ms="25823" started-at="2020-03-05T09:30:54Z" finished-at="2020-03-05T09:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteInitialization -->
+        <test-method status="PASS" signature="automobileTestInitialization()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="automobileTestInitialization" is-config="true" duration-ms="4" started-at="2020-03-05T09:31:20Z" finished-at="2020-03-05T09:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automobileTestInitialization -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="beforeClass" is-config="true" duration-ms="15" started-at="2020-03-05T09:31:20Z" finished-at="2020-03-05T09:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="beforeMethod" is-config="true" duration-ms="3186" started-at="2020-03-05T09:31:20Z" finished-at="2020-03-05T09:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dom()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="dom" duration-ms="1492" started-at="2020-03-05T09:31:23Z" finished-at="2020-03-05T09:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dom -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-05T09:31:25Z" finished-at="2020-03-05T09:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="beforeMethod" is-config="true" duration-ms="1975" started-at="2020-03-05T09:31:25Z" finished-at="2020-03-05T09:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="engineperf()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="engineperf" duration-ms="569" started-at="2020-03-05T09:31:27Z" finished-at="2020-03-05T09:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- engineperf -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="beforeMethod" is-config="true" duration-ms="1845" started-at="2020-03-05T09:31:27Z" finished-at="2020-03-05T09:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-05T09:31:27Z" finished-at="2020-03-05T09:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="make()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="make" duration-ms="712" started-at="2020-03-05T09:31:29Z" finished-at="2020-03-05T09:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- make -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-05T09:31:30Z" finished-at="2020-03-05T09:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-03-05T09:31:30Z" finished-at="2020-03-05T09:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="automobileTeardown()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="automobileTeardown" is-config="true" duration-ms="8" started-at="2020-03-05T09:31:56Z" finished-at="2020-03-05T09:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automobileTeardown -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:automobile.EnterVehicleData@2893de87]" name="suiteTearDown" is-config="true" duration-ms="0" started-at="2020-03-05T09:32:01Z" finished-at="2020-03-05T09:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- automobile.EnterVehicleData -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="samplePackage.TestScript1"/>
+      <!-- <class name="samplePackage.TestScript1"/> -->
+      <class name="automobile.EnterInsurantData"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
