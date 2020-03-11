@@ -68,7 +68,7 @@ public class Driver {
 	@AfterClass
 	public void tearDown()
 	{
-		dr.quit();
+		//dr.quit();
 	}
 
 }

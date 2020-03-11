@@ -25,6 +25,9 @@ public class HomePage {
 	@FindBy(linkText="Camper")
 	WebElement Camper;
 	
+	@FindBy(id="downloadtrial")
+	WebElement DownloadTrial;
+	
 	
 	public HomePage(WebDriver dr)
 	{
@@ -50,12 +53,12 @@ public class HomePage {
 	{
 		motorcycle.click();
 		
-		return new MotorCycle_EnterVehicleData();
+		return new MotorCycle_EnterVehicleData(dr);
 	}
 	
 	public Camper_EnterVehicleData clickCamper()
 	{
 		Camper.click();		
-		return new Camper_EnterVehicleData();
+		return new Camper_EnterVehicleData(dr);
 	}
 }
